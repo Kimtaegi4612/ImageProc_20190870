@@ -532,7 +532,7 @@ void CImageProc20190870View::OnPixelTwoImageSub() //두영상의 뺼셈
 		int x, y;
 
 		for (y = 0; y < pDoc->Imagehight; y++)
-			for (x = 0; x < pDoc->gImageWidth; x++)
+			for (x = 0; x < pDoc->ImageWidth; x++)
 			{
 				if (pDoc->depth == 1)
 				{
